@@ -104,6 +104,9 @@ a {
   font-size: 7px;
   background-color: #f6691e;
 }
+.searchButton a {
+  color: white;
+}
 .right-icons {
   display: none;
 }
@@ -282,6 +285,7 @@ iframe {
     border: 1px solid black;
     font-size: 9px;
     background-color: #f6691e;
+    color: white;
   }
 
   .gardient {
@@ -324,6 +328,9 @@ iframe {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
   }
+  .options li {
+    font-size: 18px;
+  }
   .news-boxes {
     display: flex;
     gap: 20px;
@@ -332,11 +339,14 @@ iframe {
   .news-boxes div {
     flex: 1 1 0;
   }
-  /*.first-box-header,
-  .second-box-header {
-    font-size: 15px;
+
+  .news-boxes h1 {
+    font-size: 18px;
   }
-  */
+  .news-boxes p {
+    font-size: 18px;
+  }
+
   .bottom {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
@@ -363,6 +373,10 @@ iframe {
   }
   .map-header {
     margin-top: 70px;
-    margin-left: 7px;
+    margin-bottom: 7px;
+  }
+
+  .bottom {
+    font-size: 15px;
   }
 }
