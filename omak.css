@@ -265,11 +265,6 @@ iframe {
     grid-column-end: 3;
   }
 
-  /*.left-icons ul {
-    display: flex; */
-  /*justify-content: flex-end; */
-  /*gap: 60px;  */
-
   .left-icons ul {
     margin-right: 30px;
   }
