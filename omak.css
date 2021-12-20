@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.heeader {
+  display: none;
+}
+.OAMK-logo {
+  width: 335px;
+  height: 120px;
+  margin-left: 6px;
+}
+
+.social-media img {
+  width: 88px;
+  height: 88px;
+}
+.omak-body-pic {
+  width: 2503px;
+  height: 816px;
+  display: none;
+}
+
+.right-icons a:hover {
+  background-color: #f6691e;
+  border: 1px solid #f6691e;
+  padding: 3px;
+  border-radius: 20px;
+  color: white;
+}
+.left-icons a:hover {
+  background-color: #f6691e;
+  border: 1px solid #f6691e;
+  padding: 3px;
+  border-radius: 20px;
+  color: white;
+}
+
+.mask,
+.christmas {
+  width: 100vw;
+  height: 323px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+
+  /* border: 1px solid blue;   */
+  display: grid;
+  grid-template: 1fr auto/ 1fr 1fr;
+  margin-bottom: 73px;
+  padding-bottom: 10px;
+}
+/* .header div {
+  border: 1px solid black;
+}   */
+.search {
+  margin-top: 5px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-left: 6px;
+}
+
+.left-icons ul {
+  display: flex;
+  justify-content: space-around;
+
+  font-size: 12px;
+}
+a {
+  color: black;
+}
+
+.search {
+  display: flex;
+}
+.searchBar {
+  flex: 1;
+  height: 20px;
+  border-radius: 20px;
+  border-right: hidden;
+  margin-right: -20px;
+  border: 1px solid black;
+  font-size: 7px;
+}
+.searchButton {
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 7px;
+  background-color: #f6691e;
+}
+.right-icons {
+  display: none;
+}
+
+.oamk-logo img {
+  width: 90px;
+  height: 40px;
+}
+
+.body-paragraph h1 {
+  font-size: 25px;
+}
+.body-paragraph {
+  margin-top: 80px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.options li {
+  border: 2px solid orange;
+  margin: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  width: 80%;
+  border-radius: 20px;
+}
+.options li:hover {
+  background-color: #f7cfa0;
+}
+
+.news-line {
+  font-size: 25px;
+  padding-top: 60px;
+
+  text-align: left;
+  margin-left: 60px;
+}
+.news-boxes {
+  /*display: flex;
+  flex-direction: column;  */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  /*border: 2px solid yellow;  */
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+.news-boxes img {
+  height: 323px;
+  max-width: 100%;
+}
+
+.news-boxes h1 {
+  font-size: 15px;
+}
+.news-boxes p {
+  font-size: 13px;
+}
+.first-box,
+.second-box {
+  border: 1px solid black;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.first-box:hover,
+.second-box:hover {
+  background-color: #f7cfa0;
+}
+
+iframe {
+  width: 100%;
+  height: 200px;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #222f3e;
+  font-size: 10px;
+  color: white;
+}
+.orangespace {
+  background: #f6691e;
+  text-align: right;
+  color: white;
+}
+.social-media img {
+  width: 30px;
+  height: 30px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.address ul {
+  margin: 0;
+  padding: 0;
+}
+.map-header,
+.address {
+  margin-left: 7px;
+}
+@media only screen and (min-width: 700px) {
+  /*
+    .omak-body-pic {
+    display: unset;
+    width: 100vw;
+    height: 300px;
+    margin-top: 30px;
+  }
+*/
+  .right-icons {
+    display: unset;
+    font-size: 12px;
+  }
+  .header {
+    /* border: 1px solid red;  */
+    display: grid;
+    grid-template: 1fr auto/ 1fr 1fr 1fr;
+    margin-bottom: 20px;
+  }
+  /*.header div {
+    border: 1px solid black;
+  }  */
+  .search {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .left-icons ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+  }
+  .left-icons ul {
+    margin-right: 30px;
+  }
+  .right-icons ul {
+    margin-left: -30px;
+  }
+  .right-icons ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+  }
+  .left-icons ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+
+  .search {
+    display: flex;
+  }
+  .searchBar {
+    flex: 90%;
+    height: 20px;
+    border-radius: 20px;
+    border-right: hidden;
+    margin-right: -20px;
+    border: 1px solid black;
+    font-size: 7px;
+  }
+  .searchButton {
+    flex: 10%;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 7px;
+    background-color: #f6691e;
+  }
+
+  .gardient {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .heeader,
+  .banner {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+    align-items: center;
+  }
+  .banner {
+    margin-top: 130px;
+    background: url("./pictures/omak\ pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-attachment: fixed;
+  }
+
+  .heeader {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.5)),
+      url("./pictures/omak\ pic.jpg") center/cover no-repeat fixed;
+  }
+
+  .body-paragraph {
+    margin-top: 10px;
+    /*  border: 1px solid red;   */
+    text-align: justify;
+    text-align: center;
+  }
+  .options ul {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+  }
+  .news-boxes {
+    display: flex;
+    gap: 20px;
+  }
+
+  .news-boxes div {
+    flex: 1 1 0;
+  }
+  .bottom {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+  }
+  /*.bottom div {
+    border: 1px solid yellow;   
+  }   */
+  .orangespace {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .map-and-header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .social-media {
+    justify-self: center;
+  }
+  .address {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 7px;
+  }
+  .map-header {
+    margin-top: 70px;
+    margin-left: 7px;
+  }
+}
