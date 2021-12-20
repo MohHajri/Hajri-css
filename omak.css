@@ -223,29 +223,53 @@ iframe {
     margin-top: 30px;
   }
 */
+  .OAMK-logo {
+    width: 60px;
+    height: 10px;
+    margin-left: 6px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  /* temporary border for troubleshooting*/
+  .header div {
+    border: 1px solid blue;
+  }
   .right-icons {
     display: unset;
-    font-size: 12px;
+    font-size: 16px;
   }
   .header {
-    /* border: 1px solid red;  */
+    border: 1px solid red;
     display: grid;
     grid-template: 1fr auto/ 1fr 1fr 1fr;
     margin-bottom: 20px;
+    /*padding-bottom: 10px;
+    top: 0;
+    width: 100%;
+    position: fixed; */
   }
+
   /*.header div {
     border: 1px solid black;
   }  */
+
+  .right-icons a:hover {
+    padding: 8px;
+  }
+  .left-icons a:hover {
+    padding: 8px;
+  }
+
   .search {
     grid-column-start: 2;
     grid-column-end: 3;
   }
 
-  .left-icons ul {
-    display: flex;
-    justify-content: flex-end;
-    gap: 60px;
-  }
+  /*.left-icons ul {
+    display: flex; */
+  /*justify-content: flex-end; */
+  /*gap: 60px;  */
+
   .left-icons ul {
     margin-right: 30px;
   }
@@ -255,12 +279,13 @@ iframe {
   .right-icons ul {
     display: flex;
     justify-content: flex-start;
-    gap: 60px;
+    gap: 150px;
   }
   .left-icons ul {
     display: flex;
-    justify-content: space-between;
-    font-size: 12px;
+    justify-content: flex-end;
+    font-size: 16px;
+    gap: 150px;
   }
 
   .search {
@@ -268,18 +293,18 @@ iframe {
   }
   .searchBar {
     flex: 90%;
-    height: 20px;
+    height: 30px;
     border-radius: 20px;
     border-right: hidden;
-    margin-right: -20px;
+    margin-right: -30px;
     border: 1px solid black;
-    font-size: 7px;
+    font-size: 12px;
   }
   .searchButton {
     flex: 10%;
     border-radius: 20px;
     border: 1px solid black;
-    font-size: 7px;
+    font-size: 9px;
     background-color: #f6691e;
   }
 
