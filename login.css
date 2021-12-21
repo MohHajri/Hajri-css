@@ -17,15 +17,32 @@ body div {
   border: 1px solid yellow;
 }
 */
-.omak-logo img {
+.oamk-logo img {
   margin-left: 100px;
   padding: 20px;
   width: 150px;
   height: 70px;
 }
-.omak-logo {
+.oamk-logo {
   grid-column: 1/4;
   border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.oamk-logo a {
+  text-decoration: none;
+  margin-top: 45px;
+  margin-right: 50px;
+  height: fit-content;
+}
+.oamk-logo a:hover {
+  background-color: #f6691e;
+  border: 1px solid #f6691e;
+  padding: 8px;
+  border-radius: 20px;
+  color: white;
 }
 .login-box {
   /*border: 1px solid blue;  */
@@ -72,7 +89,7 @@ body div {
 }
 
 .boxgang input {
-  width: 50px;
+  width: 60px;
   margin-top: -15px;
 }
 .bottom {
@@ -94,5 +111,3 @@ body div {
   background-color: #f6691e;
   color: white;
 }
-
-/*  0 1px 2px 0 rgb(85 85 85) */
