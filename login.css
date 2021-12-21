@@ -36,6 +36,7 @@ body div {
   margin-top: 45px;
   margin-right: 50px;
   height: fit-content;
+  color: black;
 }
 .oamk-logo a:hover {
   background-color: #f6691e;
