@@ -98,6 +98,7 @@ a {
   border: 1px solid black;
   font-size: 7px;
   font-family: "Raleway", sans-serif;
+  background-color: #eee;
 }
 .searchButton {
   border-radius: 20px;
